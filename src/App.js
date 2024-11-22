@@ -1,9 +1,9 @@
-import DoorScene from './components/DoorScene';
+import Door from './components/Door';
 
 function App() {
   return (
     <div className="App">
-      <DoorScene />
+      <Door />
     </div>
   );
 }
