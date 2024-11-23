@@ -2,9 +2,9 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import MainPage from './pages/MainPage';
 import QuotesPage from './pages/QuotesPage';
-import CharactersPage from './pages/CharactersPage';
-import EpisodesPage from './pages/EpisodesPage';
-import GalleryPage from './pages/GalleryPage';
+// import CharactersPage from './pages/CharactersPage';
+// import EpisodesPage from './pages/EpisodesPage';
+// import GalleryPage from './pages/GalleryPage';
 
 function App() {
   return (

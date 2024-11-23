@@ -23,7 +23,7 @@ const LandingPage = () => {
         <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded">
           <h2 className="text-2xl font-bold text-black">PUSH</h2>
           {hasTriedPush && (
-            <p className="text-sm text-gray-500 mt-2">It goes both ways...</p>
+            <p className="text-sm text-gray-500 mt-2">It actually goes both ways...</p>
           )}
         </div>
         
