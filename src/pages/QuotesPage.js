@@ -18,12 +18,17 @@ const QuotesPage = () => {
       category: "rage"
     },
     {
-      text: "It's illegal for you to ask me that.",
-      character: "Hot Dog Car Guy",
-      episode: "S1E5",
+      text: "It goes both ways",
+      character: "Door Guy",
+      episode: "S1E1",
       category: "defensive"
     },
-    // Add more quotes here
+    {
+      text: "I'm not SUPPOSED to get grease on this hat!",
+      character: "Hat Guy",
+      episode: "S2E1",
+      category: "panic"
+    }
   ];
 
   const categories = ['all', 'panic', 'rage', 'defensive'];

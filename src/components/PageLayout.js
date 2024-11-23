@@ -5,7 +5,6 @@ const PageLayout = ({ children }) => {
   const [isZiplining, setIsZiplining] = useState(false);
   const location = useLocation();
 
-  // Trigger zipline animation on route change
   useEffect(() => {
     setIsZiplining(true);
     const timer = setTimeout(() => setIsZiplining(false), 2000);
@@ -18,21 +17,13 @@ const PageLayout = ({ children }) => {
       <div 
         className={`fixed top-0 transition-all duration-[2000ms] ease-in-out z-50
           ${isZiplining ? 'translate-x-full -translate-y-1/4 rotate-12' : '-translate-x-full translate-y-1/4 -rotate-12'}`}
-        style={{ transitionTimingFunction: 'cubic-bezier(0.45, 0, 0.55, 1)' }}
       >
         {/* Zipline */}
         <div className="absolute top-0 w-96 h-1 bg-gray-600 transform rotate-12" />
         
         {/* Character */}
         <div className="relative">
-          <div className="w-20 h-20 bg-blue-600 rounded-full relative">
-            {/* Face */}
-            <div className="absolute top-4 left-4 w-12 h-8 bg-tan-200 rounded-full">
-              <div className="flex justify-center space-x-4 mt-2">
-                <div className="w-1 h-1 bg-black rounded-full" />
-                <div className="w-1 h-1 bg-black rounded-full" />
-              </div>
-            </div>
+          <div className="w-20 h-20 bg-blue-600 rounded-full">
             {/* TC Tuggers Shirt */}
             <div className="absolute -bottom-8 left-2 w-16 h-16 bg-gray-400 rounded">
               <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-600 rounded-full" />
@@ -41,8 +32,8 @@ const PageLayout = ({ children }) => {
         </div>
       </div>
 
-      {/* Navigation Bar */}
-      <nav className="fixed top-0 left-0 w-full bg-gray-800 shadow-lg z-40">
+      {/* Navigation */}
+      <nav className="fixed top-0 left-0 w-full bg-gray-800 z-40">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between h-16">
             <Link to="/main" className="flex items-center hover:text-gray-300">
