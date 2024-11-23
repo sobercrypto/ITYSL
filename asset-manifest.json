@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ITYSL/static/css/main.4cc90b8d.css",
+    "main.js": "/ITYSL/static/js/main.e65b4919.js",
+    "index.html": "/ITYSL/index.html",
+    "main.4cc90b8d.css.map": "/ITYSL/static/css/main.4cc90b8d.css.map",
+    "main.e65b4919.js.map": "/ITYSL/static/js/main.e65b4919.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cc90b8d.css",
+    "static/js/main.e65b4919.js"
+  ]
+}
