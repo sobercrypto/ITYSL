@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import MainPage from './pages/MainPage';
@@ -19,15 +18,6 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
       </Routes>
     </Router>
-=======
-import Door from './components/Door';
-
-function App() {
-  return (
-    <div className="App">
-      <Door />
-    </div>
->>>>>>> ddccfe72a0f7b78b414b4f349937d3ec162dbbaf
   );
 }
 
