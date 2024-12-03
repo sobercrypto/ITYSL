@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ITYSL/static/css/main.4ba05a1f.css",
-    "main.js": "/ITYSL/static/js/main.a2068cdc.js",
+    "main.css": "/ITYSL/static/css/main.2fa95f81.css",
+    "main.js": "/ITYSL/static/js/main.b32e58ec.js",
     "index.html": "/ITYSL/index.html",
-    "main.4ba05a1f.css.map": "/ITYSL/static/css/main.4ba05a1f.css.map",
-    "main.a2068cdc.js.map": "/ITYSL/static/js/main.a2068cdc.js.map"
+    "main.2fa95f81.css.map": "/ITYSL/static/css/main.2fa95f81.css.map",
+    "main.b32e58ec.js.map": "/ITYSL/static/js/main.b32e58ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba05a1f.css",
-    "static/js/main.a2068cdc.js"
+    "static/css/main.2fa95f81.css",
+    "static/js/main.b32e58ec.js"
   ]
 }
